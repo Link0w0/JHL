@@ -64,6 +64,17 @@ a.two:visited {
    color: black;
 }
 
+.carousel-inner {
+  height: 600px;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    max-height: 600px;
+}
+
 @media (max-width: 1024px) {
 	
 	}
@@ -74,6 +85,10 @@ a.two:visited {
 		overflow-x: hidden;
 	}
   
+  .carousel-inner {
+  height: 200px;
+}
+  
   #hide2 {
      display: none;
     }
@@ -82,5 +97,4 @@ a.two:visited {
   .hide {
  display: none;
     }
-  
-  
+ 
