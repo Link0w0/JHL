@@ -65,14 +65,14 @@ a.two:visited {
 }
 
 .carousel-inner {
-  height: 600px;
+  height: 650px;
 }
 
 .carousel-item {
     position: absolute;
     top: 0px;
     left: 0;
-    max-height: 600px;
+    max-height: 650px;
 }
 
 @media (max-width: 1024px) {
