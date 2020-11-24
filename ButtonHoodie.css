@@ -236,6 +236,9 @@ color: blue;
 #left-circle:hover {
  border: 2px solid blue;
 }
+ body {
+        overflow-x: hidden;
+    }
 @media (max-width: 768px) {
  .main {
  max-width: 100%;
