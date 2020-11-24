@@ -381,15 +381,17 @@ padding-left: 20px;
   .hide {
  display: none;
     }
-    
-    
+	       .column {
+      margin-left: 15px !important;
+     margin-right: 20px !important;
+}
+
     @media (max-width: 320px) {
   .hide {
  display: none;
     }
     
    .column {
- margin-bottom: 15px !important;
       margin-left: 10px !important;
      margin-right: 10px !important;
 }
