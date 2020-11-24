@@ -317,6 +317,7 @@ color: blue;
  background-size: cover;
  background-repeat: no-repeat;
  height: 90vh;
+	border-radius: 5px;
 } 
 .top-rate-button {
  margin-left: 10px;
