@@ -1,0 +1,101 @@
+.jumbotron {
+ margin-top: 20px;
+   text-align: center;
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1537160699291-f3e06ab5b6b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  
+}
+.display-4 {
+  color: white;
+ }
+
+.lead {
+  color: white;
+ }
+
+
+#link {
+  color: black;
+  margin: 10px;
+}
+
+a.one:link {
+  color: black;
+}
+
+a.one:visited {
+  color: black;
+   text-decoration: underline;
+  }
+
+a:link {
+  color: black;
+}
+
+a.two:link {
+  color: white;
+   text-decoration: underline;
+}
+a.two:visited {
+  color: white;
+   text-decoration: underline;
+  }
+
+.dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #f5f5f5;
+}
+
+ ion-icon {
+  font-size: 20px;
+   color: black;
+}
+
+img {
+    border-radius: 5px;
+  }
+
+
+@media (max-width: 1024px) {
+	
+	}
+  
+@media (max-width: 768px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+  
+  #hide2 {
+     display: none;
+    }
+  
+  @media (max-width: 425px) {
+  .hide {
+ display: none;
+    }
+  
+  
